@@ -243,7 +243,7 @@ class StokRaporApp:
                     worksheet = writer.sheets['Depo Durum Raporu']
                     worksheet.views.sheetView[0].showGridLines = True
                     
-                    worksheet['A1'] = "AKCAN JENERATÖR HAFTALIK DEPO DURUM RAPORU"
+                    worksheet['A1'] = "HAFTALIK DEPO DURUM RAPORU"
                     worksheet['A1'].font = Font(name='Segoe UI', size=16, bold=True, color='1F497D')
                     
                     worksheet['A2'] = f"Rapor Tarih Aralığı: {start_dt} - {end_dt}"
@@ -346,7 +346,7 @@ class StokRaporApp:
                     worksheet = writer.sheets['Genel Toplam Özet']
                     worksheet.views.sheetView[0].showGridLines = True
                     
-                    worksheet['A1'] = "AKCAN JENERATÖR HAFTALIK DEPO DURUM ÖZETİ"
+                    worksheet['A1'] = "HAFTALIK DEPO DURUM ÖZETİ"
                     worksheet['A1'].font = Font(name='Segoe UI', size=14, bold=True, color='1F497D')
                     
                     worksheet['A2'] = f"Rapor Tarih Aralığı: {start_dt} - {end_dt}"
